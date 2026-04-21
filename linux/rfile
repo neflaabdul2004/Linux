@@ -1,0 +1,27 @@
+
+
+
+fi 
+echo " good night"
+
+else [ $T -ge 20 -a $T -lt 24 ]
+
+echo " good evening"
+then 
+elif [ $T -ge 16 -a $T  -lt 20 ]
+
+echo "good afternoon"
+then
+elif [ $T -ge 12 -a $T  -lt 16 ]
+
+echo "good morning"
+then
+if [ $T -ge 0 -a $T -lt 12 ]
+T=`date +%H`
+
+fi
+exit 1
+echo "Syntax is <$0> [<time>]"
+
+then
+if [ $# -ne 0 ]
